@@ -1,0 +1,22 @@
+.blink { 
+    animation-duration: 1s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: blink;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+}
+}
+@-webkit-keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
